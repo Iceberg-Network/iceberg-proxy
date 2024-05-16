@@ -9,12 +9,7 @@
     <script defer src="js/tabcloak.js"></script>
 </head>
 <body>
-    <script>
-        fetch('navbar.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('content').innerHTML = data;
-            })
-            .catch(error => console.error(error));
-    </script>
+    <div id="navbarload"></div>
+
+    <script src="../js/navbarloading.js"></script>
 </body>
