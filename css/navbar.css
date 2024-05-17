@@ -1,3 +1,7 @@
 body{
   background-color: aqua;
 }
+.navbar{
+ font-family: "Poppins", "sans-serif";
+ font-style: normal;
+}
