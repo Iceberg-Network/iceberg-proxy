@@ -8,10 +8,35 @@
     <script defer src="../js/tabcloak.js"></script>
     <!--For navbar loading-->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        const dive = document.createElement("div")
+        var elems = new Array
+        const idit = document.getElementById("anchor")
+        function pushCrapToDOM() {
+    for (let m=0;  elems.length > m; m++) {
+      dive.appendChild(elems[m]);
+    }
+    document.body.insertBefore(dive, idit);
+  };
+        const dumbassShart = await fetch("../games.json")
+        var shittyObjectShit = JSON.parse(dumbassShart)
+        //fuck for loops im a rebel 
+        var iteratorBullshit = 0
+        while(!iteratorBullshit==shittyObjectShit["games"].length){
+            elems.push(document.createElement("a"))
+            //i think this is how innerhtml works right???
+            elems[iteratorBullshit].innerHtml = "<img src=" +'"'+"../images/appicons"+shittyObjectShit["games"][iteratorBullshit][1]+'" >'
+            elems[iteratorBullshit].margin = "5px"
+            iteratorBullshit += 1
+        }
+        pushCrapToDOM()
+    </script>
 </head>
 <body>
     <!--Navbar Placeholder-->
     <div id="navbar-placeholder"></div>
     <script src="../js/navbarloading.js"></script>
+    <!--thats right jasper im using super ugly dom code-->
+    <div id="anchor"></div>
 </body>
 </html>

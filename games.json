@@ -1,0 +1,16 @@
+{
+    "comment": "game entries in game name-icon format",
+    "games":[
+        ["Eaglercraft",""],
+        ["BTD5",""],
+        ["Dino Game",""],
+        ["Geometry Dash",""],
+        ["House of Hazards",""],
+        ["Janissary Battles",""],
+        ["Janissary Towers",""],
+        ["Mingiants.io",""],
+        ["Motox3m",""],
+        ["The Password Game",""],
+        ["Slope Game",""],
+    ]
+}
