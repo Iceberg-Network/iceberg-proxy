@@ -1,38 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script defer src="js/tabcloak.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-</head>
-
-<body>
-    <div class="noscrolling" id="navbarload"></div>
-    <link rel="stylesheet" type="text/css" href="../css/index.css">
-    <link rel="stylesheet" type="text/css" href="../css/navbar.css"> 
-    <script defer src="../js/tabcloak.js"></script>
-    <link rel="icon" type="image/x-icon" href="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://docs.google.com/document/u/0/&size=16">
-    <!--For navbar loading-->
-    <!--Navbar placeholder-->
-    <div id="navbar-placeholder"></div>
-    <script src="../js/navbarloading.js"></script>
-    <h1 class="title"> WELCOME TO COMMANDER V2</h1>
-    <h6> sample text </h6>
-    <input type="text" value="https://myapps.classlink.com" placeholder="Favicon">
-    
-    <script>
-        var input = document.querySelector('body input[placeholder="Favicon"]');
-
-        input.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                if (input.value !== '' && input.value.startsWith('http') || input.valye.startsWith('https')) {
-                    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script defer src="js/tabcloak.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+        <script defer src="../js/tabcloak.js"></script>
+        <link rel="icon" type="image/x-icon" href="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://docs.google.com/document/u/0/&size=16">
+    </head>
+    <body>
+        <div class="noscrolling" id="navbarload"></div>
+        <div id="navbar-placeholder"></div>
+        <script src="../js/navbarloading.js"></script>
+        <h1 class="title"> WELCOME TO COMMANDER V2</h1>
+        <h6> sample text </h6>
+        <input type="text" value="https://myapps.classlink.com" placeholder="Favicon">
+        <script>
+            var input = document.querySelector('body input[placeholder="Favicon"]');
+            input.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    if (input.value !== '' && input.value.startsWith('http') || input.value.startsWith('https')) {
+                    }
                 }
-            }
-        });
-    </script>
-</body>
+            });
+        </script>
+    </body>
 </html>
-
