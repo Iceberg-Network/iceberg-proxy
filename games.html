@@ -9,6 +9,7 @@
     <!--For navbar loading-->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script>
+        c
         const dive = document.createElement("div")
         var elems = new Array
         const idit = document.getElementById("anchor")
@@ -18,7 +19,8 @@
     }
     document.body.insertBefore(dive, idit);
   };
-        const dumbassShart = await fetch("../games.json")
+        //im gonna put all this json on one line and no one can stop me
+        const dumbassShart = "{ 'comment': 'game entries in game name-icon location format, icon location relative to ../images/appicons/','games':[['Eaglercraft','minecraft'],['BTD5','btd5'],['Dino Game','dinogame'],['Geometry Dash','geodash'],['House of Hazards','houseofhazards'],['Janissary Battles','janissarybattles'],['Janissary Towers','janissarytower'],['Mingiants.io','mingiants'],['Motox3m','motox3m'],['The Password Game','thepasswordgame'],['Slope Game','slopegame']]}"
         var shittyObjectShit = JSON.parse(dumbassShart)
         //fuck for loops im a rebel 
         var iteratorBullshit = 0
