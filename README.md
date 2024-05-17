@@ -1,2 +1,12 @@
-preston finish this pls
--sevi
+# Commander V2 Frontend
+## **Links**
+- commander-v2.iamadeveloper.dev  
+- commanderv2.iamadeveloper.dev  
+- commander-version-2.iamadeveloper.dev  
+- commander-version2.iamadeveloper.dev  
+- commanderversion-2.iamadeveloper.dev  
+- commanderversion2.iamadeveloper.dev  
+- cv2.iamadeveloper.dev  
+### **Dev Link**  
+  Most likely blocked  
+  https://commander-v2-frontend.pages.dev/
