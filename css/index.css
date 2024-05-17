@@ -7,3 +7,7 @@ background: linear-gradient(90deg, rgba(0,189,255,1) 0%, rgba(68,0,255,1) 50%, r
     font-style: normal;
     font-size: 50px;
   }
+  #otherBodyThing
+  {
+      margin:0;
+  }
