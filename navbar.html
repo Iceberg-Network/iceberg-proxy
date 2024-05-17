@@ -6,13 +6,27 @@
 		/* im making my own css here because i dont wanna open another file in vscode */
 		#gamesnavthingy
 		{
+			text-decoration: none;
 			padding-left: 25%;
+			position: relative;
+			top: -19px;
+		}
+		#navbarBackground
+		{
+			background-color: rgba(0, 139, 139, 0.577);
+			width: 100%;
+			height: 10%;
+		}
+		#homebutton
+		{
+			text-decoration: none;
 		}
 	</style>
 </head>
 <body>
+	<div id="navbarBackground"></div>
 	<center>
-    <a href="../index.html">Home</a>
+    <a href="../index.html" id="homeButton">Home</a>
 	</center>	
 	<a href="../games.html" id="gamesnavthingy">Games</a>
 </body>
