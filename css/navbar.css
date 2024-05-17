@@ -23,6 +23,11 @@ body
         height: 15vh;
         ul[class="menu"]
         {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
             li
             {
                 list-style: none;
