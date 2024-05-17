@@ -4,7 +4,6 @@
     			text-decoration: none;
 			padding-left: 25%;
 			position: fixed;
-			top: 6.5vh;
 			z-index: 9;
 		}
 		#navbarBackground
@@ -15,7 +14,7 @@
 			z-index: 5;
 			position: fixed;
 		}
-		#homebutton
+		#homeButton
 		{
 			text-decoration: none;
 			position: fixed;
