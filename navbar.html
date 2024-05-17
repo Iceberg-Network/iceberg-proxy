@@ -1,8 +1,41 @@
-<html>
+
+<!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="css/navbar.css">;
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href ="css/navbar.css">
+	<style>
+		/* im making my own css here because i dont wanna open another file in vscode */
+		#gamesnavthingy
+		{
+			text-decoration: none;
+			padding-left: 25%;
+			position: relative;
+			top: -5px;
+		}
+		#navbarBackground
+		{
+			background-color: rgba(0, 139, 139, 0.577);
+			width: 100%;
+			height: 35vh;
+			z-index: -9;
+			position: fixed;
+		}
+		#homebutton
+		{
+			text-decoration: none;
+		}
+		#body
+		{
+			margin:0;
+		}
+	</style>
 </head>
-<body>
-    <h1 class="navbar"> NAVBAR TEST </h1>
+<body id="body">
+	<div id="navbarBackground"></div>
+	<center>
+    <a href="../index.html" id="homeButton" style="top:14px;position:relative;">Home</a>
+	</center>	
+	<a href="../games.html" id="gamesnavthingy">Games</a>
 </body>
-</html>
+
+=

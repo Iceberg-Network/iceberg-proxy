@@ -1,5 +1,6 @@
-body{
-  background-color: aqua;
+
+.noscrolling {
+    overflow:auto
 }
 .navbar{
  font-family: "Poppins", "sans-serif";
