@@ -13,4 +13,4 @@
 
   ## Join the discord
 (Separate from the Command Enterprise server)  
-[https://discord.gg/uuCKdrdMfM](https://discord.gg/NrhUDCeU3J)  
+https://discord.gg/NrhUDCeU3J  
