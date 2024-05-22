@@ -11,4 +11,6 @@
   Most likely blocked  
   https://commander-v2-frontend.pages.dev/
 
-  
+  ## Join the discord
+(Separate from the Command Enterprise server)  
+https://discord.gg/uuCKdrdMfM  
