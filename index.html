@@ -79,13 +79,18 @@
                                 color: rgb(36, 101, 255);
                                 transform: rotate(+12deg);
                             }
-                            a:href {
-                            color: red;
-                            font-size: 24px;
-                            }
-                            a:hover {
-                            color: hotpink;
-                            }
+                            .rammerhead-link {
+    color: green;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.rammerhead-link:hover {
+    color: hotpink;
+}
+
                             &[name="game-controller-outline"]:hover
                             {
                                 color: rgb(255, 57, 57);
@@ -145,7 +150,7 @@
             
             <input type="text" placeholder="Search...">
         </li>
-            <a href="/rh/rammerhead">Or Use Rammerhead</a>
+            <a class="rammerhead-link" href="/rh/rammerhead">Or Use Rammerhead</a>
         </div>
 
 
