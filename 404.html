@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+       body{
+        background-color: #8b0000;
+       } 
+       .fullscreen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none; /* Initially hidden */
+    animation: fadeIn 0.5s ease-in-out 10s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        display: block;
+        opacity: 1;
+    }
+}
+    </style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title style="color: white;">404 Error - Page not found</title>
+    <title style="color: white; font-family: 'Creepster', sans-serif;">404 Error - Page not found</title>
     <link rel="icon" type="image/x-icon" href="assets/images/branding/favicon/favicon.png">
     <link rel="stylesheet" type="text/css" href="../css/404.css">
 </head>
-<body style="background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%)";>
+<body>
     <div class="container">
-    <h2 style="color: white; font-family: 'Ubuntu', sans-serif;">Hey Commander! I'm lost.</h2>
-        <h1 style="color:rgb(38, 0, 255);">404</h1>
-        <p style="color:white; font-family: 'Ubuntu', sans-serif;">The page you're looking for doesn't exist.</p>
+    <h2 style="color: white;  font-family: 'Creepster', sans-serif;">Hey Commander! I'm lost.</h2>
+        <h1 style="color:rgb(255, 0, 0);">404</h1>
+        <p style="color:white; font-family: 'Creepster', sans-serif;">The page you're looking for doesn't exist.</p>
         <div class="button-group">
-            <button style="font-family: 'Ubuntu', sans-serif;"location.href='/';">Go to Commander v2 Homepage</button>
+            <button style="font-family: 'Creepster', sans-serif;"location.href='/';">Go to Commander v2 Homepage</button>
         </div>
+    </div>
+    <div class="fullscreen-image">
+        <img src="images/freedy.jpg" alt="Full-Screen Image">
     </div>
 </body>
 </html>
