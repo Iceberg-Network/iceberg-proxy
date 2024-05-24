@@ -72,6 +72,12 @@ ion-icon[name="game-controller-outline"]:hover
     color: rgb(255, 57, 57);
     transform: scale(+1.14);
 }
+ion-icon[name="chatbox-ellipses-outline"]:hover
+{
+    color: rgb(0, 255, 0);
+    transform: scale(+0.90);
+}
+
 .form
 {
     position: absolute;
