@@ -1,52 +1,35 @@
-*
+.icons
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    &::-webkit-scrollbar
-    {
-        display: none;
-    }
+    position: absolute;
+    top: 5%;
+    background-color: rgba(2, 25, 36, 0.712);
+    width: 30%;
+    height: 7.5vh;
 }
-body
+ion-icon
 {
-    div
-    {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 40px;
-        background: rgb(23, 23, 45);
-        width: 100%;
-        height: auto;
-        ul[class="menu"]
-        {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            gap: 32px;
-            li
-            {
-                list-style: none;
-                a
-                {
-                    text-decoration: none;
-                    background: linear-gradient(to right, #525252, #3d72b4);
-                    background-clip: text;
-                    color: transparent;
-                    font-size: 32px;
-                    font-weight: 400;
-                    font-family: 'Ubuntu', sans-serif;
-                    transition: 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-                    &:hover
-                    {
-                        transform: scale(+1.14);
-                    }
-                }
-            }
-        }
-    }
+    color: rgb(244, 239, 245);
+    font-size: 25px;
+    transition: 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+ion-icon[name="home-outline"]:hover
+{
+    color: rgb(255, 101, 26);
+    transform: rotate(-12deg);
+}
+ion-icon[name="settings-outline"]:hover
+{
+    color: rgb(36, 101, 255);
+    transform: rotate(+12deg);
+}
+ion-icon[name="game-controller-outline"]:hover
+{
+    color: rgb(255, 57, 57);
+    transform: scale(+1.14);
+}
+ion-icon[name="chatbox-ellipses-outline"]:hover
+{
+    color: rgb(0, 255, 0);
+    transform: scale(+0.90);
 }
