@@ -1,0 +1,24 @@
+{
+    "name": "skibidi-proxy",
+    "version": "0.4.59",
+    "description": "Skibidi Proxy is a sleek, speedy and skibidi proxy to evade being watched.   ",
+    "main": "js/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/accessgames/skibidi-proxy",
+        "directory": "."
+    },
+    "author": {
+        "name": "Harvey Edmonds",
+        "email": "harvsmitt@outlook.com",
+    },
+    "bugs": {
+        "url": "https://github.com/accessgames/skibidi-proxy/issues"
+    },
+    "dependencies": {
+        "testcafe-hammerhead": "31.7.1",
+        "@titaniumnetwork-dev/ultraviolet": "3.0.2",
+        "mime": "4.0.1",
+        "uuid": "9.0.1"
+    }
+}
