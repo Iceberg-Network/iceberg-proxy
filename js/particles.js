@@ -1,14 +1,16 @@
-{
+/* ---- particles.js config ---- */
+
+particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 400,
+      "value": 200,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 600
       }
     },
     "color": {
-      "value": "#fff"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
@@ -26,7 +28,7 @@
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 1,
       "random": true,
       "anim": {
         "enable": false,
@@ -36,7 +38,7 @@
       }
     },
     "size": {
-      "value": 10,
+      "value": 3,
       "random": true,
       "anim": {
         "enable": false,
@@ -47,16 +49,16 @@
     },
     "line_linked": {
       "enable": false,
-      "distance": 500,
+      "distance": 150,
       "color": "#ffffff",
       "opacity": 0.4,
-      "width": 2
+      "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 2,
       "direction": "bottom",
-      "random": false,
+      "random": true,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -71,12 +73,12 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false,
+        "enable": true,
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
-        "mode": "repulse"
+        "enable": false,
+        "mode": "push"
       },
       "resize": true
     },
@@ -84,18 +86,18 @@
       "grab": {
         "distance": 400,
         "line_linked": {
-          "opacity": 0.5
+          "opacity": 1
         }
       },
       "bubble": {
         "distance": 400,
-        "size": 4,
-        "duration": 0.3,
-        "opacity": 1,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
         "speed": 3
       },
       "repulse": {
-        "distance": 151.84815184815184,
+        "distance": 40,
         "duration": 0.4
       },
       "push": {
@@ -107,4 +109,4 @@
     }
   },
   "retina_detect": true
-}
+});

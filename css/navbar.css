@@ -33,3 +33,9 @@ ion-icon[name="chatbox-ellipses-outline"]:hover
     color: rgb(0, 255, 0);
     transform: scale(+0.90);
 }
+    ion-icon[name="mail-outline"]:hover
+{
+    color: rgb(255, 255, 0);    
+    transform: rotate(+359deg);
+}
+}
